@@ -67,14 +67,14 @@ const Dashboard: React.FC = () => {
         <div style={{ display: 'flex', gap: 4 }}>
           <Button
             onClick={() => {
-              console.log("Você clicou na ação do item:", record.id);
+              console.log("Você clicou na ação de remover:", record.id);
             }}
           >
             Ação
           </Button>
           <Button
             onClick={() => {
-              console.log("Você clicou na ação do item:", record.id);
+              console.log("Você clicou na ação de editar:", record.id);
             }}
           >
             Ação
